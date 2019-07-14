@@ -25,7 +25,7 @@ def saveAverageExperienceFromFile(opinionsFilePath, category):
                 age = float(stringExperience)
                 sum = sum + age
                 numberOfValidEntries = numberOfValidEntries + 1
-            elif stringExperience != 'NA' :
+            elif stringExperience == 'NA' :
                notMentioned = notMentioned + 1
             
 

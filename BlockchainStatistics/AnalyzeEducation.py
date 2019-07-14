@@ -17,18 +17,16 @@ def saveEducationLevelFromFile(opinionsFilePath, category):
 
             if education == 'Bachelor’s degree (BA, BS, B.Eng., etc.)':
                 banchelorDegree += 1
-            if education == 'Associate degree' or \
+            elif education == 'Associate degree' or \
                 education == 'Some college/university study without earning a degree' or \
                 education == 'Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)' or \
                 education == 'Primary/elementary school' or \
                 education == 'I never completed any formal education':
                 undergraduateNumber += 1
-
-            if education == 'Master’s degree (MA, MS, M.Eng., MBA, etc.)' or education == 'Professional degree' or education == 'Doctoral degree':
-                others += 1
-
-            if education == 'NA':
+            elif education == 'NA':
                 notMentioned += 1
+            else:
+                others += 1
 
         with open(educationResultsFilePath, 'a') as resultsFile:
             resultsFile.write('category: ' + category + 
