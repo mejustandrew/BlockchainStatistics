@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.452
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{9C6C88E6-784F-46C2-8CD7-79596415C741}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BlockchainStatistics", "BlockchainStatistics\BlockchainStatistics.pyproj", "{9C6C88E6-784F-46C2-8CD7-79596415C741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

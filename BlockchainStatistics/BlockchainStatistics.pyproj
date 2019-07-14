@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c6c88e6-784f-46c2-8cd7-79596415c741</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>AnalyzeExperience.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication1</Name>
+    <Name>BlockchainStatistics</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
