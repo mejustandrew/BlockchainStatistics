@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c6c88e6-784f-46c2-8cd7-79596415c741</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AnalyzeEducation.py</StartupFile>
+    <StartupFile>AnalyzeExperience.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,19 @@
     <Compile Include="AnalyzeAge.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="AnalyzeCodesAsHobby.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="AnalyzeEducation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AnalyzeExperience.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AnalyzeGender.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AnalyzeOpenSourceContribution.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SplitResultsFile.py" />
