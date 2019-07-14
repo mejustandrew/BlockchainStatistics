@@ -5,7 +5,7 @@
     <ProjectGuid>9c6c88e6-784f-46c2-8cd7-79596415c741</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>AnalyzeExperience.py</StartupFile>
+    <StartupFile>AnalyzeOpinionAboutFuture.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
     <Compile Include="AnalyzeAge.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="AnalyzeChildren.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="AnalyzeCodesAsHobby.py">
       <SubType>Code</SubType>
     </Compile>
@@ -38,6 +41,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AnalyzeOpenSourceContribution.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AnalyzeOpinionAboutFuture.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SplitResultsFile.py" />
