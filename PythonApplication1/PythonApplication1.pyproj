@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c6c88e6-784f-46c2-8cd7-79596415c741</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AnalyzeAge.py</StartupFile>
+    <StartupFile>AnalyzeEducation.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
