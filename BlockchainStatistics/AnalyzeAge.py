@@ -2,7 +2,8 @@ import csv
 import os
 
 ageResultsFilePath = 'C:\\Users\\harry\\Desktop\\statistics\\results\\ageResults.txt'
-os.remove(ageResultsFilePath)
+if os.path.exists(ageResultsFilePath):
+    os.remove(ageResultsFilePath)
 
 def saveAverageAgeFromFile(opinionsFilePath, category):
     with open(opinionsFilePath, 'r', encoding="utf-8") as opinionsFile:
