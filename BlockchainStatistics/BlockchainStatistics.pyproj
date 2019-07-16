@@ -5,7 +5,7 @@
     <ProjectGuid>9c6c88e6-784f-46c2-8cd7-79596415c741</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>AnalyzeAgeSplit.py</StartupFile>
+    <StartupFile>AnalyzeExperieceSplit.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,6 +35,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AnalyzeEducation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AnalyzeExperieceSplit.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AnalyzeExperience.py">
